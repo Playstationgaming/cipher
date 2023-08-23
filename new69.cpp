@@ -10,7 +10,7 @@ int main(){
         sort(arr,arr+size);
         bool ans=false;
       for(int i=0;i<size-2;i++){
-        int l=0;
+        int l=i+1;
         int r=size-1;
         while(arr[l]<arr[r]){
             int sum=arr[i]+arr[l]+arr[r];
